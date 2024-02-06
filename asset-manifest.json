@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eglisedabj/static/css/main.5cf03b15.css",
-    "main.js": "/eglisedabj/static/js/main.12ecdd33.js",
+    "main.js": "/eglisedabj/static/js/main.1522785d.js",
     "static/media/bg2.mp4": "/eglisedabj/static/media/bg2.62540eabcff7b6a06c78.mp4",
     "static/media/bg3.mp4": "/eglisedabj/static/media/bg3.a41ae8b9c72b7644c3f8.mp4",
     "static/media/bg1.mp4": "/eglisedabj/static/media/bg1.64b31ae5987041ec1d2c.mp4",
@@ -15,10 +15,10 @@
     "static/media/slick.woff": "/eglisedabj/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/eglisedabj/index.html",
     "main.5cf03b15.css.map": "/eglisedabj/static/css/main.5cf03b15.css.map",
-    "main.12ecdd33.js.map": "/eglisedabj/static/js/main.12ecdd33.js.map"
+    "main.1522785d.js.map": "/eglisedabj/static/js/main.1522785d.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf03b15.css",
-    "static/js/main.12ecdd33.js"
+    "static/js/main.1522785d.js"
   ]
 }
