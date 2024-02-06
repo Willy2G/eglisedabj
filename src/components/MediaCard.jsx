@@ -20,28 +20,28 @@ const Media = () => {
       contenu:
         "Toutes les prédications de notre frère Ewald Frank, de notre frère William Marrion Branham, de l'Eglise d'Abidjan, ainsi que les cantiques vous sont proposées ici",
       image: enregIco,
-      lien: "#"
+      lien: "/#"
     },
     {
       titre: "Vidéo",
       contenu:
         "Nous mettons à votre disposition toutes les prédications vidéos de votre assemblée locale ainsi que celles de notre bien aimé frère Ewald Frank",
       image: videoIco,
-      lien: "#"
+      lien: "/#"
     },
     {
       titre: "Cantiques",
       contenu:
         "Ecoutez, téléchargez des cantiques spirituels interpretés par nos bien-aimés chantres de l'Eglise d'Abidjan.",
       image: audioIco,
-      lien: "#"
+      lien: "/#"
     },
     {
       titre: "Livres et brochures",
       contenu:
         "Trouvez ici les transcriptions des prédications de notre Fr William Branham, en brochures ainsi que les livres et autres écrits de notre Fr Ewald Frank",
       image: LivreIco,
-      lien: "#"
+      lien: "/#"
     },
   ];
 
@@ -247,7 +247,7 @@ const Media = () => {
                   <p className="text-md text-[#1c0708]/60 font-bold">
                     {contenu}
                   </p>
-                   <Link to={lien} key={key}
+                   <Link to={`${process.env.PUBLIC_URL}${lien}`} key={key}
                     className="mt-6 py-3 px-2 inline-flex bg-[#8d4d03] hover:bg-[#c36c08] transition-colors text-gray-200 font-bold rounded-sm text-sm"
                   >
                     Consulter
