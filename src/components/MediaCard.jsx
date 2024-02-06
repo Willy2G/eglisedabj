@@ -247,7 +247,7 @@ const Media = () => {
                   <p className="text-md text-[#1c0708]/60 font-bold">
                     {contenu}
                   </p>
-                   <Link to={`${process.env.PUBLIC_URL}${lien}`} key={key}
+                   <Link to={`${lien}`} key={key}
                     className="mt-6 py-3 px-2 inline-flex bg-[#8d4d03] hover:bg-[#c36c08] transition-colors text-gray-200 font-bold rounded-sm text-sm"
                   >
                     Consulter

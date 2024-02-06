@@ -149,7 +149,7 @@ function NavList(propos) {
           color="gray"
           className="font-bold text-blue-gray-500"
         >
-          <NavLink to={`${process.env.PUBLIC_URL}${lien}`}>
+          <NavLink to={`${lien}`}>
           <MenuItem  onClick={propos.openff} className="flex items-center gap-2 lg:rounded-full uppercase">
             <motion.div whileHover={{ scale: 1.2 }}>
               <motion.span
