@@ -1,0 +1,73 @@
+ </h2>
+          <div className="container mx-auto flex flex-col items-start md:flex-row my-4 md:my-8">
+            <div className="ml-0 md:ml-12 lg:w-full">
+              <div className="container mx-auto">
+                <div className="relative wrap overflow-hidden p-10 h-full">
+                  <div
+                    className="border-2-2 border-yellow-555 absolute h-full border"
+                    style={{
+                      right: "50%",
+                      border: "2px solid #FFC100",
+                      borderRadius: "1%",
+                    }}
+                  ></div>
+                  <div
+                    className="border-2-2 border-yellow-555 absolute h-full border"
+                    style={{
+                      left: "50%",
+                      border: "2px solid #FFC100",
+                      borderRadius: "1%",
+                    }}
+                  ></div>
+
+                  {ecouteReunion.map((data, key) => (
+                    <div
+                      key={key}
+                      className={`mb-8 flex justify-between items-center w-full 
+                      ${
+                        data.jourR == "Samedi"
+                          ? " right-timeline"
+                          : " left-timeline flex-row-reverse"
+                      }
+                      `}
+                    >
+                      <div class="order-1 w-5/12"></div>
+                      <div
+                        className={`order-1 w-5/12 px-1 py-4 
+                        ${data.jourR == "Samedi" ? " text-left" : " text-right"}
+                      `}
+                      >
+                        <p className="mb-3 text-base text-black-300">
+                          {data.heureR}
+                        </p>
+                        <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                          {data.jourR}
+                        </h4>
+
+                        <div
+                          className={`flex gap-2 w-full
+                          ${
+                            data.jourR == "Samedi"
+                              ? "justify-start"
+                              : "justify-end"
+                          }`}
+                        >
+                          {data.modeSuivi.map((data1, key) => (
+                            <IconButton
+                              key={key}
+                              size="sm"
+                              color={data1.couleur}
+                              className="rounded-full"
+                            >
+                              <data1.icon />
+                            </IconButton>
+                          ))}
+                        </div>
+                        <p>Bonne écoute à tous et à toutes !</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
