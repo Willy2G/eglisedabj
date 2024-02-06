@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/eglisedabj/static/css/main.5cf03b15.css",
+    "main.js": "/eglisedabj/static/js/main.7c21a7c7.js",
+    "static/media/bg2.mp4": "/eglisedabj/static/media/bg2.62540eabcff7b6a06c78.mp4",
+    "static/media/bg3.mp4": "/eglisedabj/static/media/bg3.a41ae8b9c72b7644c3f8.mp4",
+    "static/media/bg1.mp4": "/eglisedabj/static/media/bg1.64b31ae5987041ec1d2c.mp4",
+    "static/media/assemblee.jpg": "/eglisedabj/static/media/assemblee.c743e00c43a3235df73d.jpg",
+    "static/media/video.png": "/eglisedabj/static/media/video.52535072f84ae498ac6f.png",
+    "static/media/enreg.png": "/eglisedabj/static/media/enreg.4736ac9eb2b2669b0002.png",
+    "static/media/audio.png": "/eglisedabj/static/media/audio.8e18b40c87877f3712d1.png",
+    "static/media/slick.svg": "/eglisedabj/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/eglisedabj/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/eglisedabj/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/eglisedabj/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/eglisedabj/index.html",
+    "main.5cf03b15.css.map": "/eglisedabj/static/css/main.5cf03b15.css.map",
+    "main.7c21a7c7.js.map": "/eglisedabj/static/js/main.7c21a7c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf03b15.css",
+    "static/js/main.7c21a7c7.js"
+  ]
+}
