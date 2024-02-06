@@ -20,28 +20,28 @@ const Media = () => {
       contenu:
         "Toutes les prédications de notre frère Ewald Frank, de notre frère William Marrion Branham, de l'Eglise d'Abidjan, ainsi que les cantiques vous sont proposées ici",
       image: enregIco,
-      lien: "/#"
+      lien: "/audio"
     },
     {
       titre: "Vidéo",
       contenu:
         "Nous mettons à votre disposition toutes les prédications vidéos de votre assemblée locale ainsi que celles de notre bien aimé frère Ewald Frank",
       image: videoIco,
-      lien: "/#"
+      lien: "/video"
     },
     {
       titre: "Cantiques",
       contenu:
         "Ecoutez, téléchargez des cantiques spirituels interpretés par nos bien-aimés chantres de l'Eglise d'Abidjan.",
       image: audioIco,
-      lien: "/#"
+      lien: "/chants"
     },
     {
       titre: "Livres et brochures",
       contenu:
         "Trouvez ici les transcriptions des prédications de notre Fr William Branham, en brochures ainsi que les livres et autres écrits de notre Fr Ewald Frank",
       image: LivreIco,
-      lien: "/#"
+      lien: "/"
     },
   ];
 
